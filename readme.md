@@ -1,22 +1,20 @@
-#Full Stack Test Task
+EasyGenerator Test Project
 
-This project is a simple authentication system with Sign In and Sign Up pages. It uses React and Styled Components for the frontend, offering modern styling and a clean design. The project includes:
+This project is a secure, scalable, and interactive full-stack web application built using NestJS for the backend and React with TypeScript for the frontend. The system includes user authentication, profile management, rate limiting, CORS and other security best practices.
 
 
-##Install dependencies for both frontend and backend:
+Backend Setup
+    Install dependencies:
+        npm install
+    Create a .env file:
+    Start the backend server:
+      npm run start:dev
 
-cd frontend
-npm install
-cd ../backend
-npm install
-
-##Start the development servers concurrently:
-
-npm start
-
-This will start both the frontend and backend simultaneously. Open your browser and navigate to:
-
-http://localhost:3000
+Frontend Setup
+    Install dependencies:
+        npm install
+    Start the frontend application:
+        npm run dev
 
 
 Usage
